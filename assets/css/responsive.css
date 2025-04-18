@@ -1,0 +1,2444 @@
+
+/* Normal desktop :1501. */
+@media (min-width: 1501px) and (max-width: 1799px) {
+
+
+
+}
+
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+.lawyer_menu > ul > li > a {
+    margin: 30px 6px ;
+    font-size: 15px ;
+}
+
+a.logo_img img {
+    width: 170px;
+}
+
+.lawyer_nav_manu {
+    margin-bottom: -88px;
+}
+
+
+}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+a.logo_img img {
+    width: 90%;
+}
+
+a.main_sticky img {
+    width: 100% ;
+}
+
+.header-button a {
+    font-size: 14px;
+    padding: 12px 24px;
+}
+
+.lawyer_menu > ul > li > a {
+    font-size: 15px;
+    margin: 29px 8px;
+}
+
+.lawyer_nav_manu {
+    margin-bottom: -86px;
+}
+
+/*slider area*/
+
+.hero-title h1 {
+    font-size: 60px;
+    line-height: 75px;
+}
+
+/*section title*/
+.lawyer-section-title h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.lawyer-section-title h5 {
+    font-size: 16px;
+}
+
+.lawyer-section-title p {
+    font-size: 15px;
+}
+
+/*about section*/
+
+.about-thumb img {
+    width: 100%;
+}
+
+.about-check-list p i {
+    margin-right: 4px;
+}
+
+.about-check-list p {
+    font-size: 13px;
+}
+
+.about-thumb2 {
+    margin: 0 0 0 0;
+}
+
+.about-thumb2 img {
+    width: 100%;
+}
+
+.about-section.style-three .about-counter {
+    right: 13px;
+}
+
+.about-counter-title h3 {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.about-counter-title h6 {
+    font-size: 15px;
+}
+
+.about-items-content p {
+    font-size: 15px;
+}
+
+/*service section*/
+
+.service-desc p {
+    font-size: 14px;
+}
+
+.service-button a {
+    font-size: 16px;
+}
+
+.service-section.style-three .service-button a:before {
+    right: -88px;
+    width: 52%;
+}
+
+/*faq section*/
+
+.accordion {
+    padding: 0 15px 0;
+    font-size: 14px;
+}
+
+.contact-thumb img {
+    width: 100%;
+}
+
+/*Case study section*/
+
+.study-title h4 {
+    font-size: 20px;
+}
+
+.study-text p {
+    font-size: 16px;
+}
+
+.active.center .case-study-icon a i {
+    opacity: 1;
+    top: 82px;
+}
+
+.case-study-single-box:hover .case-study-icon a i {
+    opacity: 1;
+    top: 82px;
+}
+
+.case-study-icon a i {
+    font-size: 18px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.case-study-section .text-center.lawyer-section-title p {
+    width: 65%;
+}
+
+.skill-thumb img {
+    width: 100%;
+}
+
+/*testimonial*section*/
+
+.testimonial-title h4 {
+    font-size: 20px;
+}
+
+.testi-title h4 {
+    font-size: 20px;
+}
+
+.testimonial-desc p {
+    font-size: 15px;
+}
+
+.testimonial_list .owl-nav {
+    left: 0px;
+    text-align: left;
+}
+
+.testimonial_list .owl-next {
+    right: 0;
+}
+
+.style-two .testimonial-descciption p {
+    font-size: 14px;
+}
+
+/*counter section*/
+
+.lawyer-counters-box {
+    padding: 12px 0 11px 30px;
+}
+
+.faq-section .counter-text p {
+    font-size: 15px;
+}
+
+/*blog section*/
+
+.lawyer-blog-thumb img {
+    width: 100%;
+}
+
+.blog-title h2 a {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.lawyer-blog-content {
+    padding: 30px 26px 34px;
+}
+
+.post-categories p {
+    font-size: 13px;
+}
+
+/*blog details*/
+
+.rpost-content h4 a {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.calender {
+    height: 512px;
+}
+
+.all-days ul li, .tag-item .all-date ul li {
+    width: 57px;
+}
+
+.tag-list ul li a {
+    padding: 3px 16px;
+    font-size: 15px;
+}
+
+.tag-item2 a {
+    padding: 7px 19px;
+}
+
+span.rights-reply {
+    top: -130px;
+}
+
+/*Footer section*/
+
+h4.widget-title {
+    font-size: 21px;
+    padding: 0 0 15px;
+}
+
+.company-desc-info p {
+    font-size: 13px;
+}
+
+ul.footer-widget-list li a {
+    font-size: 15px;
+}
+
+.footer-contact-title h6 {
+    padding: 16px 14px;
+    font-size: 15px;
+}
+
+.footer-contact-icon i {
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 15px;
+}
+
+.footer-contact-desc p {
+    font-size: 14px;
+}
+
+.faq-section .col-lg-6.col-md-12.pl-60.responsive {
+    padding-left: 20px;
+}
+
+.faq-section .accordion li a {
+    font-size: 15px;
+}
+
+.case-study-content {
+    left: 20px;
+}
+
+.case-study-content {
+    top: 60% !important;
+}
+
+.style-two .about-extra-single-box .lawyer-section-title h1 {
+    font-size: 30px;
+}
+
+.lawyer-service-content2 {
+    padding: 0 25px 28px;
+}
+
+.hero-description p {
+    width: 67%;
+}
+
+.faq-section .col-lg-6.col-md-6.pl-60.responsive {
+    padding-left: 20px;
+}
+
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.lawyer_nav_manu  {
+    display: none !important;
+}
+
+.header_top_menu {
+    display: none;
+}
+
+div#sticky-header {
+    display: none;
+}
+
+/*slider area*/
+
+.hero-title h1 {
+    font-size: 48px;
+    line-height: 62px;
+}
+
+.contact-thumb {
+    margin: 30px 0 0 0;
+}
+
+.style-two .about-thumb {
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+/*section title*/
+
+.lawyer-section-title h1 {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.lawyer-section-title h4 {
+    font-size: 16px;
+}
+
+.lawyer-section-title p {
+    font-size: 15px;
+}
+
+/*about section*/
+
+.style-two .about-extra-single-box {
+    padding: 31px 30px 51px;
+}
+
+.about-section.style-two .lawyer-section-title h1 {
+    font-size: 22px;
+}
+
+.about-section.style-two .lawyer-section-title p {
+    font-size: 14px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+.about-check-list p {
+    font-size: 14px;
+}
+
+.about-check-list p i {
+    font-size: 13px;
+    height: 18px;
+    width: 18px;
+    line-height: 19px;
+    margin-right: 3px;
+}
+
+.about-thumb2 img {
+    width: 100%;
+}
+
+.about-thumb2 {
+    margin: 0;
+}
+
+.about-section.style-three .about-counter {
+    padding: 5px 22px 25px;
+    right: 13px;
+}
+
+.about-counter-title h3 {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.about-counter-title h6 {
+    font-size: 15px;
+}
+
+.about-items-content h6 {
+    font-size: 17px;
+}
+
+.about-items-content p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/*service section*/
+
+.service-title h3 {
+    font-size: 22px;
+}
+
+.service-desc p {
+    font-size: 15px;
+}
+
+.service-button a {
+    font-size: 16px;
+}
+
+/*faq section*/
+
+.accordion {
+    padding: 0 5px 0 8px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.col-lg-6.col-md-6.pl-60.responsive {
+    padding-left: 15px !important;
+}
+
+.panel p {
+    font-size: 14px;
+}
+
+/*counter section*/
+
+.lawyer-counters-box {
+    padding: 12px 0 11px 30px;
+}
+
+.faq-section .counter-text p {
+    font-size: 15px;
+}
+
+.counter-title h4 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.counter-title h1 {
+    font-size: 38px;
+}
+
+.counter-text p {
+    font-size: 13px;
+}
+
+.contact-thumb img {
+    width: 100%;
+}
+
+/*Team section*/
+
+.team-section {
+    padding: 100px 0 95px;
+}
+
+.style-three.team-section {
+    padding: 100px 0 95px;
+}
+
+.team-content {
+    bottom: 25px;
+}
+
+/*Case study section*/
+
+.study-title h4 {
+    font-size: 22px;
+}
+
+.study-text p {
+    font-size: 16px;
+}
+
+.active.center .case-study-icon a i {
+    opacity: 1;
+    top: 82px;
+}
+
+.case-study-single-box:hover .case-study-icon a i {
+    opacity: 1;
+    top: 82px;
+}
+
+.case-study-icon a i {
+    font-size: 18px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.case-study-section .text-center.lawyer-section-title p {
+    width: 65%;
+}
+
+.portfolio_nav ul li {
+    font-size: 14px;
+    padding: 6px 25px;
+    margin-right: 2px;
+}
+
+/*testimonial*section*/
+
+.testimonial-title h4 {
+    font-size: 20px;
+}
+
+.testi-title h4 {
+    font-size: 20px;
+}
+
+.testimonial-desc p {
+    font-size: 15px;
+}
+
+.testimonial_list .owl-nav {
+    left: 0px;
+    text-align: left;
+}
+
+.testimonial_list .owl-next {
+    right: 0;
+}
+
+.style-two .testimonial-single-box {
+    padding: 40px 30px 35px;
+}
+
+.style-two .testi-title h4 {
+    font-size: 18px;
+}
+
+.style-two .testimonial-icon2 i {
+    font-size: 45px;
+    margin: -50px -11px 0 0px;
+}
+
+.style-two .testimonial-descciption p {
+    font-size: 14px;
+}
+
+.style-two .testi-text p {
+    left: 38px;
+    font-size: 14px;
+}
+
+.style-two .testi-text p:after {
+    left: 56px;
+    width: 31px;
+}
+
+/*skill section*/
+
+.skill-section {
+    padding: 0 0 110px;
+}
+
+.skill-thumb img {
+    width: 100%;
+}
+
+/*blog section*/
+
+.lawyer-blog-thumb img {
+    width: 100%;
+}
+
+.blog-title h2 a {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.lawyer-blog-content {
+    padding: 30px 26px 34px;
+}
+
+.post-categories p {
+    font-size: 13px;
+}
+
+/*blog details*/
+
+.blogs-content2 {
+    padding: 15px 25px 10px;
+}
+
+.blog-title2 h3 a {
+    font-size: 20px;
+}
+
+.rpost-content h4 a {
+    font-size: 15px;
+}
+
+.calender {
+    height: 512px;
+}
+
+.all-days ul li, .tag-item .all-date ul li {
+    width: 68px;
+}
+
+.tag-list ul li a {
+    padding: 3px 16px;
+    font-size: 15px;
+}
+
+.tag-item2 a {
+    padding: 7px 19px;
+}
+
+span.rights-reply {
+    top: -187px;
+}
+
+.blog-quotes {
+    font-size: 16px;
+    padding: 24px 20px 24px 20px;
+}
+
+.meta-blog-title2 h5 {
+    font-size: 17px;
+}
+
+.post-title h4 {
+    font-size: 16px;
+}
+
+.post-comment-thumb {
+    float: inherit;
+    margin-bottom: 18px;
+}
+
+/*Footer section*/
+
+
+h4.widget-title {
+    font-size: 21px;
+    padding: 0 0 15px;
+}
+
+.company-desc-info p {
+    font-size: 13px;
+}
+
+ul.footer-widget-list li a {
+    font-size: 15px;
+}
+
+.footer-contact-title h6 {
+    padding: 16px 14px;
+    font-size: 15px;
+}
+
+.footer-contact-icon i {
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 15px;
+}
+
+.footer-contact-desc p {
+    font-size: 14px;
+}
+
+.col-lg-6.col-md-12.pl-60.responsive {
+    padding-left: 11px;
+    padding-top: 15px;
+}
+
+.hero-section {
+    height: 750px;
+}
+
+.sticky {
+    position: relative !important;
+}
+
+.skill-thumb {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.hero-description p {
+    width: 90%;
+}
+
+.about-thumb3 img {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.breatcam-title h1 {
+    font-size: 45px;
+}
+
+.case-study-details-main-title h1 {
+    font-size: 30px;
+}
+
+.case-study-details-overview-title h2 {
+    font-size: 25px;
+}
+
+.portfolio-details-clients-title h2 {
+    font-size: 25px;
+}
+
+.breatcam-content {
+    padding-top: 0px;
+}
+
+.team-icon span {
+    top: -90px;
+}
+
+}
+
+/* Large Mobile :600px. */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+.header_top_menu {
+    display: none;
+}    
+
+.lawyer_nav_manu {
+    display: none;
+}
+
+/*slider area*/
+
+.hero-title h1 {
+    font-size: 48px;
+    line-height: 62px;
+}
+
+/*section title*/
+
+.lawyer-section-title h1 {
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.lawyer-section-title h4 {
+    font-size: 16px;
+}
+
+.lawyer-section-title p {
+    font-size: 15px;
+}
+
+.text-center.lawyer-section-title p {
+    width: 90%;
+}
+
+/*about section*/
+
+.style-two .row.about-bg {
+    margin-top: -310px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+.style-two .about-thumb {
+    left: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.about-thumb2 img {
+    width: 100%;
+}
+
+.about-thumb2 {
+    margin: 0 0 20px 0px;
+}
+
+/*service section*/
+
+.service-section.style-two.upper {
+    padding: 55px 0 352px;
+}
+
+.service-section {
+    padding: 54px 0 40px;
+}
+
+.service-title h3 {
+    font-size: 22px;
+}
+
+.service-desc p {
+    font-size: 15px;
+}
+
+.service-button a {
+    font-size: 16px;
+}
+
+/*faq section*/
+
+.faq-section {
+    padding: 70px 0 50px;
+}
+
+.accordion {
+    padding: 0 5px 0 8px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.col-lg-6.col-md-6.pl-60.responsive {
+    padding-left: 15px !important;
+    margin-top: 20px;
+}
+
+.panel p {
+    font-size: 14px;
+}
+
+/*counter section*/
+
+.counter-section {
+    padding: 50px 0 40px;
+}
+
+.lawyer-counters-box {
+    padding: 12px 0 11px 30px;
+}
+
+.faq-section .counter-text p {
+    font-size: 15px;
+}
+
+.counter-title h4 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+/*contact section*/
+
+.contact-section {
+    padding: 54px 0 70px;
+}
+
+.contact-section.style-two {
+    padding: 54px 0 70px;
+}
+
+.contact-thumb {
+    margin: 40px 0 0 0px;
+}
+
+.contact-thumb img {
+    width: 100%;
+}
+
+/*Team section*/
+
+.team-section {
+    padding: 54px 0 45px;
+}
+
+.style-three.team-section {
+    padding: 55px 0 46px;
+}
+
+.team-content {
+    bottom: 25px;
+}
+
+/*Case study section*/
+
+.study-title h4 {
+    font-size: 22px;
+}
+
+.study-text p {
+    font-size: 16px;
+}
+
+.portfolio_nav {
+    margin: 38px 5px 32px;
+}
+
+.active.center .case-study-icon a i {
+    opacity: 1;
+    top: 225px;
+}
+
+.case-study-single-box:hover .case-study-icon a i {
+    opacity: 1;
+    top: 225px;
+}
+
+.case-study-section .text-center.lawyer-section-title p {
+    width: 86%;
+}
+
+.portfolio_nav ul li {
+    font-size: 15px;
+    padding: 5px 25px;
+    margin-right: 4px;
+    margin-bottom: 12px;
+}
+
+/*testimonial*section*/
+
+.testimonial-section {
+    padding: 60px 0 60px;
+}
+
+.style-two.testimonial-section {
+    padding: 70px 0 50px;
+}
+
+.testimonial-title h4 {
+    font-size: 20px;
+}
+
+.testi-title h4 {
+    font-size: 20px;
+}
+
+.testimonial-desc p {
+    font-size: 15px;
+}
+
+.testimonial_list .owl-nav {
+    left: 0px;
+    text-align: left;
+}
+
+.testimonial_list .owl-next {
+    right: 0;
+}
+
+.testimonial_list2 .owl-nav {
+    right: 15px;
+    bottom: -15px;
+}
+
+/*skill section*/
+
+.skill-section {
+    padding: 0 0 70px;
+}
+
+.skill-thumb img {
+    width: 100%;
+}
+
+.skill-thumb {
+    margin: 0 0 30px 0px;
+}
+
+/*blog section*/
+
+.blog-section {
+    padding: 50px 0 40px;
+}
+
+.lawyer-blog-thumb img {
+    width: 100%;
+}
+
+.blog-title h2 a {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.lawyer-blog-content {
+    padding: 30px 26px 34px;
+}
+
+.post-categories p {
+    font-size: 13px;
+}
+
+/*blog details*/
+
+.blogs-content2 {
+    padding: 15px 25px 10px;
+}
+
+.blog-title2 h3 a {
+    font-size: 20px;
+}
+
+.rpost-content h4 a {
+    font-size: 15px;
+}
+
+.calender {
+    height: 365px;
+}
+
+.all-days ul li, .tag-item .all-date ul li {
+    width: 75px;
+}
+
+.pagination-menu.pt-40 {
+    padding: 10px 0 35px !important;
+}
+
+.tag-list ul li a {
+    padding: 3px 16px;
+    font-size: 15px;
+}
+
+.tag-item2 a {
+    padding: 7px 19px;
+}
+
+span.rights-reply {
+    top: -136px;
+}
+
+.blog-quotes {
+    font-size: 18px;
+    padding: 24px 20px 24px 20px;
+}
+
+.social-icon-list.text-right {
+    text-align: left !important;
+    margin-top: 20px;
+}
+
+.post-title h4 {
+    font-size: 16px;
+}
+
+.post-comment-thumb {
+    float: inherit;
+    margin-bottom: 18px;
+}
+
+/*Footer section*/
+
+.footer-section {
+    padding: 75px 0 0px;
+}
+
+
+h4.widget-title {
+    font-size: 21px;
+    padding: 0 0 15px;
+}
+
+.company-desc-info p {
+    font-size: 13px;
+}
+
+ul.footer-widget-list li a {
+    font-size: 15px;
+}
+
+.footer-widget-list li a.border1:before {
+    position: inherit;
+}
+
+.footer-contact-title h6 {
+    padding: 16px 14px;
+    font-size: 15px;
+}
+
+.footer-contact-icon i {
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 15px;
+}
+
+.footer-contact-desc p {
+    font-size: 14px;
+}
+
+.footer-bottom-menu.text-right {
+    text-align: center !important;
+}
+
+.row.footer-bottom-bg {
+    margin: 50px 0 0;
+    padding-bottom: 36px;
+}
+
+.hero-section {
+    height: 700px;
+}
+
+.case-study-section {
+    padding: 55px 0 40px;
+}
+
+.footer-bottom-content-copy {
+    text-align: center;
+}
+
+.faq-section .col-lg-6.col-md-12.pl-60.responsive {
+    padding-left: 12px;
+    padding-top: 25px;
+}
+
+.sticky {
+    position: relative !important;
+}
+
+.style-two .about-extra-single-box .lawyer-section-title h1 {
+    font-size: 30px;
+}
+
+.hero3 .hero-title h1 {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.hero-section.hero3 {
+    background-position: left;
+}
+
+.hero3 .hero-description p {
+    width: 100%;
+}
+
+.about-section.style-three {
+    padding: 384px 0 72px;
+}
+
+.style-two.testimonial-section .col-lg-6.col-md-6.pl-5 {
+    padding-left: 15px !important;
+}
+
+.case-study-section.style-two {
+    padding: 52px 0 50px;
+}
+
+.about-thumb3 img {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about-section.style-four {
+    padding: 70px 0 52px;
+}
+
+.service-section.style-two.upper.upp {
+    padding: 20px 0 50px;
+}
+
+.case-study-section.upper {
+    padding: 70px 0 40px;
+}
+
+.breatcam-title h1 {
+    font-size: 45px;
+}
+
+.blogs-section {
+    padding: 70px 0 33px;
+}
+
+.case-study-detials-area {
+    padding: 55px 0 55px;
+}
+
+.case-study-details-main-title h1 {
+    font-size: 25px;
+}
+
+.case-study-details-overview-title h2 {
+    font-size: 22px;
+}
+
+.portfolio-details-clients-title h2 {
+    font-size: 22px;
+}
+
+.footer-section .row.footer-bg .col-lg-3.col-md-6.pl-30 {
+    padding-left: 15px;
+}
+
+.breatcam-content {
+    padding-top: 0px;
+}
+
+.team-icon span {
+    top: -90px;
+}
+
+.blog-details-meta {
+    padding: 16px 17px;
+}
+
+.blog-details-meta span {
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.blog-details-title h2 {
+    font-size: 28px;
+}
+
+}
+
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+
+.lawyer_nav_manu {
+    display: none;
+}
+
+.header_top_menu {
+    display: none;
+}
+
+/*slider area*/
+
+.hero-section {
+    height: 600px;
+}
+
+.hero-title h1 {
+    font-size: 38px;
+    line-height: 58px;
+}
+
+.hero-description p {
+    width: 100%;
+    font-size: 15px;
+}
+
+/*section title*/
+
+.lawyer-section-title h1 {
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.lawyer-section-title h4 {
+    font-size: 16px;
+}
+
+.lawyer-section-title p {
+    font-size: 15px;
+}
+
+.text-center.lawyer-section-title p {
+    width: 90%;
+}
+
+/*about section*/
+
+.style-two .row.about-bg {
+    margin-top: -310px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+.style-two .about-thumb {
+    left: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.about-check-list p {
+    font-size: 15px;
+}
+
+.about-thumb2 img {
+    width: 100%;
+}
+
+.about-thumb2 {
+    margin: 0 0 20px 0px;
+}
+
+.about-counter-title h3 {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.about-counter-title h6 {
+    font-size: 15px;
+}
+
+.about-section.style-three .about-counter {
+    right: 13px;
+}
+
+/*service section*/
+
+.service-section {
+    padding: 55px 0 40px;
+}
+
+.service-section.style-two.upper {
+    padding: 55px 0 350px;
+}
+
+.service-title h3 {
+    font-size: 22px;
+}
+
+.service-desc p {
+    font-size: 15px;
+}
+
+.service-button a {
+    font-size: 16px;
+}
+
+/*faq section*/
+
+.faq-section {
+    padding: 70px 0 50px;
+}
+
+.accordion {
+    padding: 0 5px 0 8px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.col-lg-6.col-md-6.pl-60.responsive {
+    padding-left: 15px !important;
+    margin-top: 20px;
+}
+
+.panel p {
+    font-size: 14px;
+}
+
+/*counter section*/
+
+.lawyer-counters-box {
+    padding: 12px 0 11px 30px;
+}
+
+.faq-section .counter-text p {
+    font-size: 15px;
+}
+
+.counter-title h4 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+/*contact section*/
+
+.contact-section {
+    padding: 54px 0 70px;
+}
+
+.contact-section.style-two {
+    padding: 54px 0 70px;
+}
+
+.contact-thumb {
+    margin: 30px 0 0 0px;
+}
+
+.contact-thumb img {
+    width: 100%;
+}
+
+/*Team section*/
+
+.team-content {
+    bottom: 25px;
+}
+
+/*Case study section*/
+
+.study-title h4 {
+    font-size: 22px;
+}
+
+.study-text p {
+    font-size: 16px;
+}
+
+.active.center .case-study-icon a i {
+    opacity: 1;
+    top: 225px;
+}
+
+.case-study-single-box:hover .case-study-icon a i {
+    opacity: 1;
+    top: 225px;
+}
+
+.portfolio_nav ul li {
+    background: #fff;
+    border: 1px dashed #B59A6D;
+    font-size: 15px;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    padding: 5px 25px;
+    margin-right: 4px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+/*testimonial*section*/
+
+.testimonial-section {
+    padding: 60px 0 60px;
+}
+
+.testimonial-title h4 {
+    font-size: 20px;
+}
+
+.testi-title h4 {
+    font-size: 20px;
+}
+
+.testimonial-desc p {
+    font-size: 15px;
+}
+
+.testimonial_list .owl-nav {
+    left: 0px;
+    text-align: left;
+}
+
+.testimonial_list .owl-next {
+    right: 0;
+}
+
+.testimonial_list2 .owl-nav {
+    right: 15px;
+    bottom: -15px;
+}
+
+/*skill section*/
+
+.skill-section {
+    padding: 0 0 65px;
+}
+
+.skill-thumb img {
+    width: 100%;
+}
+
+.skill-thumb {
+    margin: 0 0 30px 0px;
+}
+
+/*blog section*/
+
+.blog-section {
+    padding: 50px 0 50px;
+}
+
+.lawyer-blog-thumb img {
+    width: 100%;
+}
+
+.blog-title h2 a {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.lawyer-blog-content {
+    padding: 30px 26px 34px;
+}
+
+.post-categories p {
+    font-size: 13px;
+}
+
+/*blog section*/
+
+.blog-section {
+    padding: 54px 0 43px;
+}
+
+.lawyer-blog-thumb img {
+    width: 100%;
+}
+
+.blog-title h2 a {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.lawyer-blog-content {
+    padding: 30px 26px 34px;
+}
+
+.post-categories p {
+    font-size: 13px;
+}
+
+/*blog details*/
+
+.blogs-content2 {
+    padding: 15px 25px 10px;
+}
+
+.blog-title2 h3 a {
+    font-size: 20px;
+}
+
+.calender {
+    height: 448px;
+}
+
+.all-days ul li, .tag-item .all-date ul li {
+    width: 78px;
+}
+
+.pagination-menu.pt-40 {
+    padding: 10px 0 35px !important;
+}
+
+.tag-list ul li a {
+    padding: 3px 16px;
+    font-size: 15px;
+}
+
+.tag-item2 a {
+    padding: 7px 19px;
+}
+
+span.rights-reply {
+    top: -136px;
+}
+
+.blog-quotes {
+    font-size: 18px;
+    padding: 24px 20px 24px 20px;
+}
+
+.social-icon-list.text-right {
+    text-align: left !important;
+    margin-top: 20px;
+}
+
+.post-title h4 {
+    font-size: 16px;
+}
+
+.post-comment-thumb {
+    float: inherit;
+    margin-bottom: 18px;
+}
+
+.contact-form button {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.blogs-section {
+    padding: 50px 0 41px;
+}
+
+/*Footer section*/
+
+.footer-section {
+    padding: 70px 0 0px;
+}
+
+h4.widget-title {
+    font-size: 21px;
+    padding: 0 0 15px;
+}
+
+.company-desc-info p {
+    font-size: 13px;
+}
+
+ul.footer-widget-list li a {
+    font-size: 15px;
+}
+
+.footer-widget-list li a.border1:before {
+    position: inherit;
+}
+
+.footer-contact-title h6 {
+    padding: 16px 14px;
+    font-size: 15px;
+}
+
+.footer-contact-icon i {
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 15px;
+}
+
+.footer-contact-desc p {
+    font-size: 14px;
+}
+
+.footer-bottom-menu.text-right {
+    text-align: center !important;
+}
+
+.row.footer-bottom-bg {
+    margin: 50px 0 0;
+    padding-bottom: 36px;
+}
+
+.footer-bottom-content-copy {
+    text-align: center;
+}
+
+.footer-section .col-lg-3.col-md-6.pl-0.pr-0 {
+    padding: 0 0px 0 15px !important;
+}
+
+.faq-section .col-lg-6.col-md-12.pl-60.responsive {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.team-section {
+    padding: 50px 0 46px;
+}
+
+.case-study-section {
+    padding: 55px 0 44px;
+}
+
+.case-study-section .text-center.lawyer-section-title p {
+    width: 91%;
+}
+
+.sticky {
+    position: relative !important;
+}
+
+.style-two .about-extra-single-box .lawyer-section-title h1 {
+    font-size: 26px;
+}
+
+.hero3 .hero-title h1 {
+    font-size: 36px;
+    line-height: 60px;
+}
+
+.hero-section.hero3 {
+    background-position: left;
+}
+
+.row.serivce-bg {
+    margin-top: 70px;
+}
+
+.about-section.style-three {
+    padding: 384px 0 72px;
+}
+
+.counter-section {
+    padding: 50px 0 40px;
+}
+
+.style-two.testimonial-section {
+    padding: 70px 0 50px;
+}
+
+.style-two.testimonial-section .col-lg-6.col-md-6.pl-5 {
+    padding-left: 15px !important;
+}
+
+.case-study-section.style-two {
+    padding: 52px 0 50px;
+}
+
+.about-thumb3 img {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about-section.style-four {
+    padding: 70px 0 52px;
+}
+
+.service-section.style-two.upper.upp {
+    padding: 20px 0 50px;
+}
+
+.style-three.team-section {
+    padding: 60px 0 50px;
+}
+
+.breatcam-section {
+    height: 400px;
+}
+
+.case-study-section.upper {
+    padding: 70px 0 40px;
+}
+
+.breatcam-title h1 {
+    font-size: 40px;
+}
+
+.blogs-section {
+    padding: 70px 0 33px;
+}
+
+.case-study-detials-area {
+    padding: 55px 0 55px;
+}
+
+.case-study-details-main-title h1 {
+    font-size: 28px;
+}
+
+.case-study-details-overview-title h2 {
+    font-size: 22px;
+}
+
+.portfolio-details-clients-title h2 {
+    font-size: 22px;
+}
+
+.footer-section .row.footer-bg .col-lg-3.col-md-6.pl-30 {
+    padding-left: 15px;
+}
+
+.breatcam-content {
+    padding-top: 0px;
+}
+
+.team-icon span {
+    top: -90px;
+}
+
+.blog-details-meta span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.blog-details-title h2 {
+    font-size: 28px;
+}
+
+
+}
+
+/* small mobile :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+.lawyer_nav_manu {
+    display: none;
+}
+
+.header_top_menu {
+    display: none;
+}
+
+/*slider area*/
+
+.hero-section {
+    height: 500px;
+}
+
+.hero-title h1 {
+    font-size: 27px;
+    line-height: 40px;
+}
+
+.hero-button a {
+    padding: 12px 30px;
+    font-size: 15px;
+}
+
+/*section title*/
+
+.lawyer-section-title h1 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.lawyer-section-title h4 {
+    font-size: 16px;
+}
+
+.lawyer-section-title p {
+    font-size: 15px;
+}
+
+.text-center.lawyer-section-title p {
+    width: 100%;
+}
+
+/*about section*/
+
+.style-two .row.about-bg {
+    margin-top: -310px;
+}
+
+.about-thumb img {
+    width: 100%;
+}
+
+.style-two .about-thumb {
+    left: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.about-check-list p {
+    font-size: 15px;
+}
+
+.style-two .about-extra-single-box {
+    padding: 24px 30px 45px;
+}
+
+.about-counter {
+    padding: 0px 22px 20px;
+}
+
+.about-counter-title h3 {
+    font-size: 40px;
+}
+
+.about-counter-title h6 {
+    font-size: 14px;
+}
+
+.about-section.style-two .lawyer-section-title h1 {
+    font-size: 19px;
+    line-height: 21px;
+}
+
+.about-check-list {
+    padding: 0 0 0;
+}
+
+.about-thumb2 img {
+    width: 100%;
+}
+
+.about-thumb2 {
+    margin: 0 0 20px 0px;
+}
+
+.about-counter-title h3 {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.about-counter-title h6 {
+    font-size: 15px;
+}
+
+.about-section.style-three .about-counter {
+    right: 13px;
+}
+
+/*service section*/
+
+.service-section.style-two.upper {
+    background: #191514;
+    padding: 55px 0 350px;
+}
+
+.service-section {
+    padding: 54px 0 40px;
+}
+
+.service-title h3 {
+    font-size: 22px;
+}
+
+.service-desc p {
+    font-size: 14px;
+}
+
+.service-button a {
+    font-size: 16px;
+}
+
+/*faq section*/
+
+.faq-section {
+    padding: 70px 0 55px;
+}
+
+.accordion {
+    padding: 0 5px 0 8px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.col-lg-6.col-md-6.pl-60.responsive {
+    padding-left: 15px !important;
+    margin-top: 20px;
+}
+
+.panel p {
+    font-size: 14px;
+}
+
+/*counter section*/
+
+.lawyer-counters-box {
+    padding: 12px 0 11px 30px;
+}
+
+.faq-section .counter-text p {
+    font-size: 15px;
+}
+
+.counter-title h4 {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.counter-title h1 {
+    font-size: 40px;
+}
+
+/*contact section*/
+
+.contact-section {
+    padding: 52px 0 70px;
+}
+
+.contact-thumb {
+    margin: 30px 0 0 0px;
+}
+
+.contact-thumb img {
+    width: 100%;
+}
+
+/*Team section*/
+
+.team-section {
+    padding: 54px 0 45px;
+}
+
+.style-three.team-section {
+    padding: 60px 0 50px;
+}
+
+.team-content {
+    bottom: 25px;
+}
+
+/*Case study section*/
+
+.case-study-section {
+    padding: 54px 0 40px;
+}
+
+.case-study-content {
+    left: 20px;
+}
+
+.contact-section.style-two {
+    padding: 52px 0 70px;
+}
+
+.case-study-section .text-center.lawyer-section-title p {
+    width: 100%;
+}
+
+.study-title h4 {
+    font-size: 22px;
+}
+
+.study-text p {
+    font-size: 16px;
+}
+
+.active.center .case-study-icon a i {
+    opacity: 1;
+    top: 55px;
+}
+
+.case-study-single-box:hover .case-study-icon a i {
+    opacity: 1;
+    top: 55px;
+}
+
+.case-study-icon a i {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.case-study-section .text-center.lawyer-section-title p {
+    width: 99%;
+}
+
+.portfolio_nav {
+    margin: 35px 0px 28px;
+}
+
+.portfolio_nav ul li {
+    font-size: 14px;
+    padding: 5px 18px;
+    margin-right: 4px;
+    margin-bottom: 12px;
+}
+
+/*testimonial*section*/
+
+.testimonial-section {
+    padding: 60px 0 60px;
+}
+
+.style-two.testimonial-section {
+    padding: 70px 0 50px;
+}
+
+.testimonial-title h4 {
+    font-size: 20px;
+}
+
+.testi-title h4 {
+    font-size: 20px;
+}
+
+.testimonial-desc p {
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.testimonial_list .owl-nav {
+    left: 0px;
+    text-align: left;
+}
+
+.testimonial_list .owl-next {
+    right: 0;
+}
+
+.testimonial_list2 .owl-nav {
+    right: 16px;
+    bottom: -18px;
+    margin-bottom: 30px;
+}
+
+.style-two .testimonial-single-box {
+    padding: 40px 28px 35px;
+}
+
+.style-two .testi-title h4 {
+    font-size: 15px;
+}
+
+.testi-thumb {
+    margin-right: 20px;
+}
+
+.style-two .testi-text p {
+    padding: 3px 0 0;
+    left: 20px;
+    font-size: 14px;
+}
+
+.style-two .testi-text p:after {
+    left: 68px;
+    bottom: 13px;
+    width: 18px;
+}
+
+.style-two .testimonial-descciption p {
+    font-size: 14px;
+}
+
+.style-two .testimonial-icon2 i {
+    font-size: 43px;
+    margin: -55px -18px 0 0px;
+}
+
+/*skill section*/
+
+.skill-section {
+    padding: 0 0 70px;
+}
+
+.skill-thumb img {
+    width: 100%;
+}
+
+.skill-thumb {
+    margin: 0 0 30px 0px;
+}
+
+.progress-text p {
+    font-weight: 400;
+}
+
+.barfiller .tip {
+    font-weight: 400;
+}
+
+/*blog section*/
+
+.blog-section {
+    padding: 50px 0 40px;
+}
+
+.lawyer-blog-thumb img {
+    width: 100%;
+}
+
+.blog-title h2 a {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.lawyer-blog-content {
+    padding: 30px 26px 34px;
+}
+
+.post-categories p {
+    font-size: 13px;
+}
+
+/*blog details*/
+
+.blogs-content2 {
+    padding: 15px 25px 10px;
+}
+
+.blog-title2 h3 a {
+    font-size: 19px;
+}
+
+.calender {
+    height: 446px;
+}
+
+.all-days ul li, .tag-item .all-date ul li {
+    width: 46px;
+}
+
+.pagination-menu.pt-40 {
+    padding: 10px 0 35px !important;
+}
+
+.blog-text2 p {
+    font-size: 15px;
+}
+
+.rpost-content h4 a {
+    font-size: 15px;
+}
+
+.tag-item2 a {
+    padding: 6px 16px;
+    font-size: 14px;
+    margin: 0px 4px 14px 0;
+}
+
+.tag-list ul li a {
+    padding: 2px 14px;
+    font-size: 14px;
+}
+
+.tag-item2 a {
+    padding: 7px 19px;
+}
+
+span.rights-reply {
+    top: 0;
+}
+
+.blog-quotes {
+    font-size: 18px;
+    padding: 24px 20px 24px 20px;
+}
+
+.social-icon-list.text-right {
+    text-align: left !important;
+    margin-top: 20px;
+}
+
+.post-title h4 {
+    font-size: 16px;
+}
+
+.post-comment-thumb {
+    float: inherit;
+    margin-bottom: 18px;
+}
+
+.contact-form button {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.blogs-section {
+    padding: 50px 0 41px;
+}
+
+.social-icon-list ul li a {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+/*Footer section*/
+
+.footer-section {
+    padding: 75px 0 0px;
+}
+
+h4.widget-title {
+    font-size: 21px;
+    padding: 0 0 15px;
+}
+
+.company-desc-info p {
+    font-size: 13px;
+}
+
+ul.footer-widget-list li a {
+    font-size: 15px;
+}
+
+.footer-widget-list li a.border1:before {
+    position: inherit;
+}
+
+.footer-contact-title h6 {
+    padding: 16px 14px;
+    font-size: 15px;
+}
+
+.footer-contact-icon i {
+    font-size: 23px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 15px;
+}
+
+.footer-contact-desc p {
+    font-size: 14px;
+}
+
+.footer-bottom-menu.text-right {
+    text-align: left !important;
+}
+
+.row.footer-bottom-bg {
+    margin: 50px 0 0;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.footer-section .col-lg-3.col-md-6.pl-0.pr-0 {
+    padding: 0 0px 0 15px !important;
+}
+
+.breatcam-title h1 {
+    font-size: 30px;
+}
+
+.faq-section .col-lg-6.col-md-12.pl-60.responsive {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.accordion li a {
+    padding: 15px 12px 0;
+    height: 85px;
+}
+
+.sticky {
+    position: relative !important;
+}
+
+.lawyer-service-content2 {
+    padding: 0 24px 28px;
+}
+
+.hero-section.hero3 {
+    height: 600px;
+}
+
+.hero3 .hero-title h1 {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.hero-section.hero3 {
+    background-position: left;
+}
+
+.hero3 .hero-description p {
+    width: 100%;
+}
+
+.row.serivce-bg {
+    margin-top: 70px;
+}
+
+.about-section.style-three {
+    padding: 384px 0 72px;
+}
+
+.counter-section {
+    padding: 50px 0 40px;
+}
+
+.style-two.testimonial-section .col-lg-6.col-md-6.pl-5 {
+    padding-left: 15px !important;
+}
+
+.case-study-section.style-two {
+    padding: 52px 0 50px;
+}
+
+.about-thumb3 img {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about-section.style-four {
+    padding: 70px 0 52px;
+}
+
+.service-section.style-two.upper.upp {
+    padding: 20px 0 50px;
+}
+
+.breatcam-section {
+    height: 400px;
+}
+
+.case-study-section.upper {
+    padding: 70px 0 40px;
+}
+
+.blogs-section {
+    padding: 70px 0 33px;
+}
+
+.case-study-detials-area {
+    padding: 55px 0 55px;
+}
+
+.case-study-details-main-title h1 {
+    font-size: 25px;
+}
+
+.case-study-details-overview-title h2 {
+    font-size: 22px;
+}
+
+.portfolio-details-clients-title h2 {
+    font-size: 22px;
+}
+
+.footer-section .row.footer-bg .col-lg-3.col-md-6.pl-30 {
+    padding-left: 15px;
+}
+
+.breatcam-content {
+    padding-top: 0px;
+}
+
+.team-icon span {
+    top: -90px;
+}
+
+.blog-details-meta span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.blog-details-title h2 {
+    font-size: 25px;
+}
+
+.blog-details-meta {
+    padding: 16px 15px;
+}
+
+}
+
+
+

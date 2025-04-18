@@ -1,0 +1,44 @@
+/* General direction */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Reverse padding and margin */
+[class*="col-"] {
+    float: right;
+}
+
+.header_top_menu_address ul li {
+    text-align: right;
+}
+
+.header_top_menu_icon ul {
+    justify-content: flex-end;
+}
+
+.nav_scroll li {
+    float: right;
+}
+
+.nav_scroll .sub-menu {
+    right: 0;
+    left: auto;
+}
+
+/* Reverse specific components */
+.logo {
+    text-align: right;
+}
+
+.service-section .service-icon {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.contact-form-box input,
+.contact-form-box textarea {
+    text-align: right;
+}
+
+/* Add more RTL-specific styles as needed */
