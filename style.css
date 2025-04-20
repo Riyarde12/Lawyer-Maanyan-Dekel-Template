@@ -27,10 +27,16 @@
 ======================================*
  */
 
-
-
-.container {
+#sticky-header .container {
     height: 100px;
+}
+
+.hero-section .container {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -520,9 +526,16 @@ h1.section-text {
 
 /*about thumb*/
 
+.about-thumb {
+    width: fit-content;
+
+}
+
 .about-thumb img {
     width: 100%;
     border-radius: 0 5px 5px 0;
+    height: 650px;
+    object-fit: contain;
 }
 
 /*lawyer button */
@@ -597,6 +610,10 @@ h1.section-text {
 .about-counter-title h6 {
     font-size: 17px;
     color: #b59a6c;
+}
+
+.about-extra-single-box {
+    height: 100%;
 }
 
 .style-two .about-extra-single-box {
