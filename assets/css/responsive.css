@@ -1,11 +1,5 @@
 /* Normal desktop :1501. */
-@media (min-width: 1501px) and (max-width: 1799px) {
-
-    a.logo_img img {
-        width: 90px;
-    }
-
-}
+@media (min-width: 1501px) and (max-width: 1799px) {}
 
 /* Normal desktop :1200px. */
 

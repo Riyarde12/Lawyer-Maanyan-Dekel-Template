@@ -27,8 +27,66 @@
 ======================================*
  */
 
+
+/* Font setting */
+:root {
+    --primary-font: 'Open Sans Condensed', 'Noto Sans Hebrew', sans-serif;
+    --heading-font: 'Open Sans Condensed', 'Noto Sans Hebrew', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
+/* For specific elements if needed */
+.lawyer-section-title h1 {
+    font-family: var(--heading-font);
+}
+
+.lawyer_menu ul.nav_scroll li a {
+    font-family: var(--primary-font);
+}
+
+.about-items-content h6 {
+    font-family: var(--heading-font);
+}
+
+/* Additional selectors for menus and other elements */
+.widget-title,
+.footer-widget-list li a,
+.footer-contact-title h6,
+.footer-contact-desc p,
+.footer-bottom-content-copy p,
+.footer-bottom-menu ul li a {
+    font-family: var(--primary-font);
+}
+
+
 #sticky-header .container {
     height: 100px;
+}
+
+.lawyer_nav_manu.align-items-center .container .row.align-items-center,
+.lawyer_nav_manu.align-items-center .container .row.align-items-center .logo {
+    height: 100px
+}
+
+.lawyer_nav_manu.align-items-center .row.align-items-center .logo img {
+    height: 90px;
+}
+
+.hero-section {
+    position: relative;
+    top: -15px;
 }
 
 .hero-section .container {
@@ -243,11 +301,16 @@ nav.lawyer_menu>ul>li>a span {
     background: #fff;
     margin: 0;
     z-index: 1;
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-    transition: .5s;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
     visibility: hidden;
     border-top: 2px solid #B59A6D;
     opacity: 0;
+
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .lawyer_menu ul li:hover>.sub-menu {
@@ -259,6 +322,8 @@ nav.lawyer_menu>ul>li>a span {
 
 .lawyer_menu ul .sub-menu li {
     position: relative;
+    width: 100%;
+    display: flex;
 }
 
 .lawyer_menu ul .sub-menu li a {
@@ -273,6 +338,9 @@ nav.lawyer_menu>ul>li>a span {
     -webkit-transition: .1s;
     visibility: inherit !important;
     color: #191514 !important;
+
+    width: 100%;
+    display: flex;
 }
 
 .lawyer_menu ul .sub-menu li:hover>a,
@@ -366,7 +434,7 @@ nav.lawyer_menu>ul>li>a span {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 500px;
 }
 
 /*hero title*/
@@ -524,6 +592,11 @@ h1.section-text {
     border-radius: 5px 0 0 5px;
 }
 
+.about-section.style-four .row.align-items-center .col-lg-6.col-md-12 .about-thumb3 {
+    position: relative;
+    top: -135px;
+}
+
 /*about thumb*/
 
 .about-thumb {
@@ -536,6 +609,13 @@ h1.section-text {
     border-radius: 0 5px 5px 0;
     height: 650px;
     object-fit: contain;
+}
+
+/* business profile */
+
+.about-section .lawyer-section-title.business-profile {
+    height: 850px;
+
 }
 
 /*lawyer button */
@@ -658,7 +738,7 @@ h1.section-text {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 432px 0 120px;
+    padding: 300px 0 120px;
     position: relative;
     margin-top: -243px;
 }
@@ -671,6 +751,14 @@ h1.section-text {
 
 .about-thumb2 {
     margin: 0 0 0 -397px;
+}
+
+.about-thumb2.business-profile {
+    width: 745px;
+}
+
+.about-thumb2.business-profile img {
+    width: 745px;
 }
 
 .about-section.style-three .about-counter {
@@ -705,10 +793,11 @@ h1.section-text {
 /*About style four box*/
 
 .about-section.style-four {
-    padding: 120px 0 100px;
+    padding: 65px 0 100px;
 }
 
 .about-thumb3 img {
+    width: 503px;
     border: 6px solid #B59A6D;
     border-radius: 4px;
     margin: 0 0 0px -70px;
@@ -1244,6 +1333,12 @@ button.accordion.active:after {
 }
 
 .contact-thumb img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 23px rgba(0, 0, 0, 0.1));
+    border: 1px solid #B59A6D;
     border-radius: 5px;
 }
 
@@ -2668,7 +2763,7 @@ ul.footer-widget-list li:hover a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 300px;
 }
 
 .breatcam-content {
