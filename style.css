@@ -430,7 +430,7 @@ nav.lawyer_menu>ul>li>a span {
 =========================================**/
 
 .hero-section {
-    background: url(assets/images/slider/hero-bg.png);
+    background: url(assets/images/resource/blog1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -614,7 +614,7 @@ h1.section-text {
 /* business profile */
 
 .about-section .lawyer-section-title.business-profile {
-    height: 850px;
+    height: fit-content;
 
 }
 
@@ -2370,6 +2370,12 @@ span.post {
     padding: 110px 0 20px;
 }
 
+.footer-section .lawyer-logo img {
+    width: 150px;
+    height: 100%;
+}
+
+
 .row.footer-bg {
     position: relative;
 }
@@ -2393,7 +2399,7 @@ span.post {
     display: inline-block;
     border-radius: 30px;
     color: #fff;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     transition: .5s;
 }
 
@@ -2501,11 +2507,12 @@ ul.footer-widget-list li a {
 ul.footer-widget-list li a:before {
     position: absolute;
     content: "";
-    left: 0;
+    /* left: 0; */
     bottom: -14px;
     height: 1px;
     width: 70%;
-    background: #67615f;
+    /* background: #67615f; */
+    background: #eecd95
 }
 
 ul.footer-widget-list li:last-child a:before {
