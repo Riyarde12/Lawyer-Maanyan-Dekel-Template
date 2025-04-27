@@ -29,9 +29,16 @@
 
 
 /* Font setting */
+@font-face {
+    font-family: 'Assistant Variable';
+    src: url('assets/fonts/Assistant-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 300 800;
+    font-style: normal;
+}
+
 :root {
-    --primary-font: 'Open Sans Condensed', 'Noto Sans Hebrew', sans-serif;
-    --heading-font: 'Open Sans Condensed', 'Noto Sans Hebrew', sans-serif;
+    --primary-font: 'Assistant Variable', 'Noto Sans Hebrew', sans-serif;
+    --heading-font: 'Assistant Variable', 'Noto Sans Hebrew', sans-serif;
 }
 
 body {
@@ -75,9 +82,14 @@ h6 {
     height: 100px;
 }
 
+
+
 .lawyer_nav_manu.align-items-center .container .row.align-items-center,
 .lawyer_nav_manu.align-items-center .container .row.align-items-center .logo {
-    height: 100px
+    height: 100px;
+    gap: 40px;
+    align-items: center;
+    height: 100%;
 }
 
 .lawyer_nav_manu.align-items-center .row.align-items-center .logo img {
@@ -171,12 +183,14 @@ h6 {
 
 nav.lawyer_menu {
     text-align: right;
-    padding: 0 12px 0 0;
+    padding: 0 0px 0 0;
 }
 
 .lawyer_menu ul {
-    list-style: none;
-    display: inline-block;
+    /* list-style: none; */
+    /* display: inline-block; */
+    display: flex;
+    gap: 40px;
 }
 
 .lawyer_menu>ul>li {
@@ -187,7 +201,7 @@ nav.lawyer_menu {
 
 .lawyer_menu>ul>li>a {
     display: block;
-    margin: 36px 16px;
+    /* margin: 36px 16px; */
     -webkit-transition: .5s;
     color: #fff;
     font-family: 'Mulish';
@@ -825,6 +839,7 @@ h1.about-border2:before {
 
 p.about-pt {
     margin: 15px 0 7px;
+    padding-left: 40px;
 }
 
 /*--==============================================->
@@ -1280,6 +1295,11 @@ button.accordion.active:after {
 .contact-section .lawyer-section-title p {
     width: 64%;
     margin: auto;
+    padding-left: 40px;
+}
+
+.lawyer-section-title p {
+    padding-left: 40px;
 }
 
 /*form box*/
@@ -2771,6 +2791,8 @@ ul.footer-widget-list li:hover a {
     background-size: cover;
     background-position: center;
     height: 300px;
+    position: relative;
+    top: -15px;
 }
 
 .breatcam-content {

@@ -6,7 +6,7 @@
 @media (min-width: 1200px) and (max-width: 1500px) {
 
     .lawyer_menu>ul>li>a {
-        margin: 30px 6px;
+        /* margin: 30px 6px; */
         font-size: 15px;
     }
 
@@ -69,6 +69,10 @@
     }
 
     /*about section*/
+
+    .container {
+        max-width: 880px;
+    }
 
     .about-thumb img {
         width: 100%;
