@@ -627,9 +627,8 @@ h1.section-text {
 
 /* business profile */
 
-.about-section .lawyer-section-title.business-profile {
-    min-height: 850px;
-    height: fit-content;
+.about-section.style-two {
+    margin-bottom: 100px;
 }
 
 /*lawyer button */
@@ -807,7 +806,7 @@ h1.section-text {
 /*About style four box*/
 
 .about-section.style-four {
-    padding: 65px 0 100px;
+    padding: 65px 0 0px;
 }
 
 .about-thumb3 img {
@@ -2390,6 +2389,7 @@ span.post {
     padding: 110px 0 20px;
 }
 
+
 .footer-section .lawyer-logo img {
     width: 150px;
     height: 100%;
@@ -3510,4 +3510,18 @@ span.rights-reply {
 .loaded .loader {
     top: -100%;
     opacity: 0;
+}
+
+/* Hide elements on screens smaller than 1000px */
+@media (max-width: 999px) {
+    .hide-below-1000 {
+        display: none !important;
+    }
+}
+
+/* Show elements only on screens smaller than 1000px */
+@media (min-width: 1000px) {
+    .show-below-1000 {
+        display: none !important;
+    }
 }

@@ -1,5 +1,13 @@
 /* Normal desktop :1501. */
-@media (min-width: 1501px) and (max-width: 1799px) {}
+@media (min-width: 1501px) and (max-width: 1799px) {
+
+    /* business profile */
+    .about-section .lawyer-section-title.business-profile {
+        min-height: 850px;
+        height: fit-content;
+    }
+
+}
 
 /* Normal desktop :1200px. */
 
@@ -19,12 +27,18 @@
     }
 
 
+    /* business profile */
+    .about-section .lawyer-section-title.business-profile {
+        min-height: 850px;
+        height: fit-content;
+    }
 }
 
 
 /* Normal desktop :992px. */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
     a.logo_img img {
         width: 90%;
     }
@@ -109,6 +123,12 @@
 
     .about-items-content p {
         font-size: 15px;
+    }
+
+    /* business profile */
+    .about-section .lawyer-section-title.business-profile {
+        min-height: 850px;
+        height: fit-content;
     }
 
     /*service section*/
@@ -327,6 +347,12 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+    /*Helper class*/
+
+    .hide-below-1000 {
+        display: none;
+    }
+
     .lawyer_nav_manu {
         display: none !important;
     }
@@ -372,8 +398,23 @@
 
     /*about section*/
 
+    .about-section.style-four .row.align-items-center {
+        flex-direction: column-reverse;
+        gap: 200px
+    }
+
     .style-two .about-extra-single-box {
         padding: 31px 30px 51px;
+    }
+
+    .about-section.style-four .row.align-items-center .col-lg-6.col-md-12 .about-thumb3 {
+        top: 0;
+    }
+
+    /* business profile */
+
+    .about-section .lawyer-section-title.business-profile {
+        min-height: unset;
     }
 
     .about-section.style-two .lawyer-section-title h1 {
@@ -803,6 +844,11 @@
         margin-top: -310px;
     }
 
+    .about-section.style-four .row.align-items-center {
+        flex-direction: column-reverse;
+        gap: 200px;
+    }
+
     .about-thumb img {
         width: 100%;
     }
@@ -819,6 +865,34 @@
 
     .about-thumb2 {
         margin: 0 0 20px 0px;
+    }
+
+    .about-section.style-four {
+        direction: ltr;
+        margin: 0 auto;
+        width: 93%;
+
+    }
+
+    .about-check-list p {
+        font-size: 15px;
+    }
+
+    .about-section.style-three .about-counter {
+        right: 13px;
+    }
+
+    .about-counter-title h3 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .about-counter-title h6 {
+        font-size: 15px;
+    }
+
+    .about-items-content p {
+        font-size: 15px;
     }
 
     /*service section*/
@@ -1189,7 +1263,7 @@
     }
 
     .about-section.style-four {
-        padding: 70px 0 52px;
+        padding: 70px 0 0px;
     }
 
     .service-section.style-two.upper.upp {
@@ -1303,6 +1377,11 @@
         margin-top: -310px;
     }
 
+    .about-section.style-four .row.align-items-center {
+        flex-direction: column-reverse;
+        gap: 200px;
+    }
+
     .about-thumb img {
         width: 100%;
     }
@@ -1336,6 +1415,12 @@
 
     .about-section.style-three .about-counter {
         right: 13px;
+    }
+
+    .about-section.style-four {
+        direction: ltr;
+        margin: 0 auto;
+        width: 93%;
     }
 
     /*service section*/
@@ -1733,7 +1818,7 @@
     }
 
     .about-section.style-four {
-        padding: 70px 0 52px;
+        padding: 70px 0 0px;
     }
 
     .service-section.style-two.upper.upp {
@@ -1774,6 +1859,10 @@
 
     .portfolio-details-clients-title h2 {
         font-size: 22px;
+    }
+
+    .footer-section .container {
+        width: 80%;
     }
 
     .footer-section .row.footer-bg .col-lg-3.col-md-6.pl-30 {
@@ -1851,6 +1940,11 @@
 
     .style-two .row.about-bg {
         margin-top: -310px;
+    }
+
+    .about-section.style-four .row.align-items-center {
+        flex-direction: column-reverse;
+        gap: 200px;
     }
 
     .about-thumb img {
@@ -2268,6 +2362,10 @@
         padding: 75px 0 0px;
     }
 
+    .footer-section .container {
+        width: 80%;
+    }
+
     h4.widget-title {
         font-size: 21px;
         padding: 0 0 15px;
@@ -2382,7 +2480,10 @@
     }
 
     .about-section.style-four {
-        padding: 70px 0 52px;
+        padding: 70px 0 0px;
+        direction: ltr;
+        margin: 0 auto;
+        width: 93%;
     }
 
     .service-section.style-two.upper.upp {
