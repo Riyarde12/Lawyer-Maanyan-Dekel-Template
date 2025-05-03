@@ -2395,9 +2395,16 @@ span.post {
     height: 100%;
 }
 
+.footer-bg {
+    margin-right: 0;
+}
 
 .row.footer-bg {
     position: relative;
+}
+
+.footer-all-rights {
+    padding-right: 0;
 }
 
 .company-desc-info {
@@ -2577,7 +2584,7 @@ ul.footer-widget-list li:hover a {
 
 .row.footer-bottom-bg {
     border-top: 1px solid #67615f;
-    margin: 95px 0 0;
+    margin: 20px 0 0;
     padding-top: 30px;
 }
 
