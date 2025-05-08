@@ -93,7 +93,20 @@ h6 {
 }
 
 .lawyer_nav_manu.align-items-center .row.align-items-center .logo img {
-    height: 90px;
+    height: 60px;
+    /* Reduced from 90px for better fit */
+    padding: 5px 0;
+    /* Added padding for better spacing */
+    max-width: 100%;
+    /* Ensure the logo doesn't overflow */
+    object-fit: contain;
+    /* Maintain aspect ratio */
+}
+
+/* Additional styles for sticky header logo */
+.lawyer_nav_manu.sticky .logo img {
+    height: 50px;
+    /* Even smaller in sticky mode for better header fit */
 }
 
 .hero-section {
@@ -2849,7 +2862,7 @@ ul.footer-widget-list li:hover a {
 
 .blogs-section {
     background: #F7F7FB;
-    padding: 120px 0 120px;
+    padding: 15px 0 120px;
 }
 
 .blog-single-box2 {

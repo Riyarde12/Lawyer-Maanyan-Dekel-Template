@@ -31,6 +31,49 @@ body {
     text-align: right;
 }
 
+/* Mobile menu RTL adjustments */
+.mean-container .mean-nav ul li a {
+    text-align: right;
+    float: right;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+    right: auto;
+    left: 0;
+    text-align: center;
+}
+
+/* Improved RTL menu arrow indicators */
+.lawyer_menu > ul > li.menu-item-has-children > a:after {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+/* RTL breadcrumb adjustments */
+.breatcam-menu ul li {
+    float: right;
+}
+
+.breatcam-menu ul li:before {
+    content: "/";
+    padding: 0 10px 0 5px;
+    color: #fff;
+}
+
+/* RTL form fields */
+input[type="text"], 
+input[type="email"],
+input[type="tel"],
+textarea {
+    text-align: right;
+}
+
+/* RTL footer adjustments */
+.company-social-info ul li {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
 .service-section .service-icon {
     margin-left: 0;
     margin-right: 15px;

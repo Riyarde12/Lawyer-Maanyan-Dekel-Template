@@ -40,11 +40,13 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
     a.logo_img img {
-        width: 90%;
+        width: 80%;
+        /* Reduced from 90% for better fit */
     }
 
     a.main_sticky img {
-        width: 100%;
+        width: 80%;
+        /* Reduced from 100% for better fit */
     }
 
     .header-button a {
