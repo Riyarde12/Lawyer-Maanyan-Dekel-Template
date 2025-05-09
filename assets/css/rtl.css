@@ -44,7 +44,7 @@ body {
 }
 
 /* Improved RTL menu arrow indicators */
-.lawyer_menu > ul > li.menu-item-has-children > a:after {
+.lawyer_menu>ul>li.menu-item-has-children>a:after {
     margin-right: 5px;
     margin-left: 0;
 }
@@ -61,7 +61,7 @@ body {
 }
 
 /* RTL form fields */
-input[type="text"], 
+input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
