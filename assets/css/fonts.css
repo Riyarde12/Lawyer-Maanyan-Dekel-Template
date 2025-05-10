@@ -1,0 +1,54 @@
+/* 
+   Central Font CSS File
+   This file manages all font imports and declarations for the website
+   to prevent duplicate loading and 404 errors
+*/
+
+/* Assistant font for Hebrew text with optimized loading strategy */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap&display=swap&text=אבגדהוזחטיכךלמםנןסעפףצץקרשת');
+
+/* Font declarations */
+:root {
+    --primary-font: 'Assistant', 'Noto Sans Hebrew', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --heading-font: 'Assistant', 'Noto Sans Hebrew', system-ui, -apple-system, BlinkMacSystemFont, serif;
+}
+
+/* Performance optimization for font loading */
+html {
+    font-display: swap;
+    /* Ensure text is visible during font load */
+}
+
+/* Apply fonts to common elements */
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
+/* RTL support for Hebrew */
+[dir="rtl"] body {
+    font-family: var(--primary-font);
+}
+
+/* Special elements that previously used Noto Serif or Mulish fonts */
+.accordion li a,
+.progress-text p,
+.barfiller .tip,
+.breatcam-menu ul li,
+.rpost-content h4 a {
+    font-family: var(--heading-font);
+}
+}
+
+/* Menu items */
+.lawyer_menu ul.nav_scroll li a {
+    font-family: var(--primary-font);
+}

@@ -28,18 +28,7 @@
  */
 
 
-/* Font setting */
-@font-face {
-    font-family: 'Assistant Variable';
-    src: url('assets/fonts/Assistant-VariableFont_wght.ttf') format('truetype-variations');
-    font-weight: 300 800;
-    font-style: normal;
-}
-
-:root {
-    --primary-font: 'Assistant Variable', 'Noto Sans Hebrew', sans-serif;
-    --heading-font: 'Assistant Variable', 'Noto Sans Hebrew', sans-serif;
-}
+/* Font settings are now managed in fonts.css */
 
 body {
     font-family: var(--primary-font);
@@ -87,7 +76,6 @@ h6 {
 .lawyer_nav_manu.align-items-center .container .row.align-items-center,
 .lawyer_nav_manu.align-items-center .container .row.align-items-center .logo {
     height: 100px;
-    gap: 40px;
     align-items: center;
     height: 100%;
 }
@@ -203,7 +191,7 @@ nav.lawyer_menu {
     /* list-style: none; */
     /* display: inline-block; */
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 
 .lawyer_menu>ul>li {
@@ -217,7 +205,7 @@ nav.lawyer_menu {
     /* margin: 36px 16px; */
     -webkit-transition: .5s;
     color: #fff;
-    font-family: 'Mulish';
+    font-family: var(--primary-font);
     position: relative;
     z-index: 1;
 }
@@ -910,7 +898,7 @@ p.about-pt {
     position: relative;
     top: 2px;
     font-size: 18px;
-    left: 5px;
+    left: -5px;
 }
 
 
@@ -1234,7 +1222,7 @@ button.accordion.active:after {
     text-align: left;
     outline: none;
     font-size: 16px;
-    font-family: "Noto Serif";
+    font-family: var(--heading-font);
     font-weight: 600;
     transition: 0.5s;
     display: inline-block;
@@ -2023,7 +2011,7 @@ button.accordion.active:after {
 /*progress bar*/
 .progress-text p {
     color: #b59a6c;
-    font-family: 'Noto Serif';
+    font-family: var(--heading-font);
     font-weight: 700;
 }
 
@@ -2059,7 +2047,7 @@ button.accordion.active:after {
     z-index: 2;
     top: -39px;
     color: #b59a6c;
-    font-family: 'Noto Serif';
+    font-family: var(--heading-font);
     font-weight: 600;
 }
 
@@ -2825,7 +2813,7 @@ ul.footer-widget-list li:hover a {
     display: inline-block;
     list-style: none;
     color: #fff;
-    font-family: 'Noto Serif';
+    font-family: var(--heading-font);
     margin: 0 10px;
 }
 
@@ -2987,7 +2975,7 @@ button.icons {
     color: #191514;
     display: inline-block;
     transition: .5s;
-    font-family: 'Mulish', sans-serif;
+    font-family: var(--primary-font);
 }
 
 .rpost-title span {
@@ -3544,4 +3532,11 @@ span.rights-reply {
     .show-below-1000 {
         display: none !important;
     }
+}
+
+/* helpers */
+
+.contact-section .col-lg-6.col-md-6.pl-4.flex-align-center {
+    display: flex;
+    justify-content: center;
 }

@@ -40,7 +40,7 @@ body {
 .mean-container .mean-nav ul li a.mean-expand {
     right: auto;
     left: 0;
-    text-align: center;
+    text-align: left;
 }
 
 /* Improved RTL menu arrow indicators */
