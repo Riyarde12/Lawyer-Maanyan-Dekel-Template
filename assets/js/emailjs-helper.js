@@ -13,16 +13,8 @@ function sendEmailWithTemplateParams(e) {
         title: document.getElementById('subject').value,
         phone: document.getElementById('phone').value,
         message: document.getElementById('message').value
-    };
-
-    // Send email using EmailJS send method with parameters object
-    emailjs.send("service_ck6hb9l", "template_0dyulej", {
-        title: "בדיקה 4",
-        name: "ירדן ראשוני",
-        time: 1234546,
-        message: "בדיקה הודעה קצרה 4",
-        email: "dendenrinsh@gmail.com",
-    })
+    };    // Send email using EmailJS send method with parameters object
+    emailjs.send("service_ck6hb9l", "template_0dyulej", templateParams)
         .then(function () {
             // Success message
             console.log("Email sent successfully!");

@@ -47,6 +47,7 @@
 	<link rel="stylesheet" href="assets/css/custom.css" type="text/css" media="all" />
 	<!-- EmailJS -->
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script type="text/javascript" src="assets/js/emailjs-helper.js"></script>
 </head>
 
 <body>
@@ -112,6 +113,7 @@
 							<li><a href="contracts.html">חוזים</a></li>
 							<li><a href="defamation-law.html">לשון הרע</a></li>
 							<li><a href="tort_law.html">נזיקין</a></li>
+							<li><a href="enforcement.html">הוצאה לפועל</a></li>
 						</ul>
 					</li>
 					<li><a href="blog.html">בלוג</a></li>
@@ -139,12 +141,12 @@
 							<h1> צור קשר </h1>
 						</div>
 						<!-- breatcam menu -->
-						<div class="breatcam-menu">
+						<!-- <div class="breatcam-menu">
 							<ul>
 								<li><a href="index.html">עמוד הבית</a></li>
 								<li>צור קשר</li>
 							</ul>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -177,7 +179,7 @@
 				<div class="col-lg-6 col-md-12 pr-lg-4">
 					<!-- contact form box -->
 					<div class="contact-form-box">
-						<form id="contact-form" onsubmit="sendEmail(event)">
+						<form id="contact-form" onsubmit="sendEmailWithTemplateParams(event)">
 							<div class="row">
 								<div class="col-lg-6 col-md-6">
 									<div class="form-box">
@@ -458,45 +460,9 @@
 	<!-- EmailJS Integration -->
 	<script type="text/javascript">
 		(function () {
-			// Replace with your actual EmailJS public key
+			// Initialize EmailJS with your public key
 			emailjs.init("as3xPGRPWCNb9Dk_Q");
 		})();
-
-		function sendEmail(e) {
-			e.preventDefault();
-
-			// Show loading indicator
-			document.getElementById("submit-btn").disabled = true;
-			document.getElementById("submit-btn").textContent = "שולח...";
-
-			// Create template parameters object to ensure all fields are sent properly
-			const templateParams = {
-				name: document.getElementById('from_name').value,
-				email: document.getElementById('user_email').value,
-				title: document.getElementById('subject').value,
-				phone: document.getElementById('phone').value,
-				message: document.getElementById('message').value
-			};
-
-			// Log the parameters for debugging
-			console.log("Sending email with parameters:", templateParams);
-
-			// Use emailjs.send() instead of sendForm since we're passing parameters directly
-			emailjs.send('service_ck6hb9l', 'template_0dyulej', templateParams)
-				.then(function () {
-					// Success message
-					alert("ההודעה נשלחה בהצלחה! נחזור אליך בהקדם.");
-					document.getElementById("contact-form").reset();
-					document.getElementById("submit-btn").disabled = false;
-					document.getElementById("submit-btn").textContent = "שלח עכשיו";
-				}, function (error) {
-					// Error message
-					console.error("EmailJS error:", error);
-					alert("אירעה שגיאה בשליחת ההודעה: " + error);
-					document.getElementById("submit-btn").disabled = false;
-					document.getElementById("submit-btn").textContent = "שלח עכשיו";
-				});
-		}
 	</script>
 </body>
 
