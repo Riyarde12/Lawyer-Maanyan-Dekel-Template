@@ -611,7 +611,12 @@ h1.section-text {
 
 .about-section.style-four .row.align-items-center .col-lg-6.col-md-12 .about-thumb3 {
     position: relative;
-    top: -135px;
+    top: -185px;
+}
+
+.about-section.style-four .row.align-items-center .col-lg-6.col-md-12 .about-thumb3.real-estate {
+    position: relative;
+    top: -255px;
 }
 
 /*about thumb*/
