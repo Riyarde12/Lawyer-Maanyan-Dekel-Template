@@ -84,4 +84,6 @@ textarea {
     text-align: right;
 }
 
-/* Add more RTL-specific styles as needed */
+.text-dir-rtl {
+    direction: rtl;
+}

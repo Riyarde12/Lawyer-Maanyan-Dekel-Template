@@ -32,6 +32,8 @@
 
 body {
     font-family: var(--primary-font);
+    direction: rtl;
+
 }
 
 h1,

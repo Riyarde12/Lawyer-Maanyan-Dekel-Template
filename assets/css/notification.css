@@ -1,0 +1,141 @@
+/* Notification Popup Styles for Lawyer Maayan Dekel Website */
+
+.notification-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s, visibility 0.4s;
+    direction: rtl;
+}
+
+.notification-popup.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.notification-content {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 40px 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: 5px solid #eecd95;
+    transform: translateY(-20px);
+    transition: transform 0.4s ease;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.notification-popup.show .notification-content {
+    transform: translateY(0);
+}
+
+.notification-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.notification-icon.success {
+    background: linear-gradient(135deg, #eecd95 0%, #cea252 100%);
+    color: white;
+}
+
+.notification-icon.success:before {
+    content: "✓";
+}
+
+.notification-icon.error {
+    background: linear-gradient(135deg, #ff6b6b 0%, #d63031 100%);
+    color: white;
+}
+
+.notification-icon.error:before {
+    content: "✕";
+}
+
+.notification-message {
+    font-size: 20px;
+    margin: 10px 0 25px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.notification-close {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.3s;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-close:hover {
+    color: #eecd95;
+}
+
+/* Additional button after message */
+.notification-btn {
+    margin-top: 5px;
+    padding: 10px 25px;
+    background: linear-gradient(to bottom, #eecd95, #cea252);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.notification-btn:hover {
+    background: linear-gradient(to bottom, #cea252, #eecd95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 767px) {
+    .notification-content {
+        padding: 25px 20px;
+    }
+
+    .notification-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+    }
+
+    .notification-message {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
