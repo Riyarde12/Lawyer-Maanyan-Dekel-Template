@@ -447,11 +447,12 @@ nav.lawyer_menu>ul>li>a span {
 =========================================**/
 
 .hero-section {
-    background: url(assets/images/resource/blog1.jpg);
+    background: url(assets/images/BlackHeroHome.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
+    background-position-y: -81px;
 }
 
 /*hero title*/
@@ -599,7 +600,7 @@ h1.section-text {
  ==================================================-*/
 
 .row.about-bg {
-    margin-top: -100px;
+    margin-top: -66px;
 }
 
 .about-extra-single-box {
@@ -2805,6 +2806,16 @@ ul.footer-widget-list li:hover a {
 /*--==============================================->
   <!-- lawyer breatcam Section Css -->
  ==================================================-*/
+
+.breatcam-section-about {
+    background: url(assets/images/HeroAbout.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    top: -15px;
+}
 
 .breatcam-section {
     background: url(assets/images/resource/breatcome-bg.png);
